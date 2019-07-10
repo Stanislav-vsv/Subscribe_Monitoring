@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>   
+        <meta http-equiv="Content-Type" content="text/html; charset=win-1251" /> 
+		<title>Subscribe Monitorong</title>
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/myscripts.js" type="text/javascript"></script>
+	</head>
+	<body onload="select_load()">
+    
+		<!-- Общий div -->
+		<div class="maindiv" id="main_div">  
+			
+            <div class="home"><a href="index.html"></a></div>
+						            
+            <!-- div body -->
+			<div id="forbody">                        					
+                			              
+                <!-- Форма -->
+				<form action="" id="form_subscrib">
+                					
+                    <input class="input_email" type="email" placeholder="Укажите Email (вида: SVVolkov@alfabank.ru)" name="input_email" required />
+                    <select id="select_system" name="select_system" size="1" required > </select>
+    				<input class="submit_subscrib" type="submit" value="Подписаться" id="submit_subscrib" />
+					
+				</form> 
+				<!-- Конец формы --> 
+                
+                <div id="message_user"></div>
+                
+			</div>
+            <!-- Конец div body -->
+            
+		</div>
+        <!-- Конец общего div -->
+        
+	</body>
+    
+</html>
